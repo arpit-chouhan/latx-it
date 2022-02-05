@@ -1,0 +1,372 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* <!-- **********************************first-section****************************************** --> */
+
+/* navbar******************************** */
+
+/* .nav-bg{
+    border: 2px solid rgb(0, 255, 128);
+    width: 100%;
+    height: 10px
+    
+    
+} */
+#navbar {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 10px;
+  z-index: 10;
+}
+
+.first-section #navbar a {
+  text-decoration: none;
+  margin: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  font-size: 23px;
+  z-index: 10;
+}
+.first-section #navbar li {
+  list-style: none;
+  z-index: 10;
+}
+.first-section #navbar ul {
+  display: flex;
+}
+.first-section #navbar .nav-btn {
+  color: black;
+  border: 2px solid yellow;
+  background-color: yellow;
+  height: 40px;
+  margin-right: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  width: 300px;
+  z-index: 10;
+}
+/* banner********************************** */
+.first-section {
+  border: 2px solid black;
+  width: 100%;
+  height: 630px;
+  background-image: url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 10;
+}
+.banner {
+  text-align: right;
+}
+.overlay {
+  width: 100%;
+  height: 630px;
+  /* border: 1px solid rgb(0, 255, 255); */
+  background-color: black;
+  opacity: 40%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.banner-heading {
+  margin-right: 20px;
+  /* border: 2px solid rgb(0, 255, 128); */
+  height: 400px;
+  margin-top: 150px;
+  z-index: 10;
+  position: relative;
+}
+.banner-heading h1 {
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+}
+
+.banner-heading .banner-btn #btn1 {
+  border: none;
+  background-color: yellow;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.banner-heading .banner-btn #btn2 {
+  border: 2px solid yellow;
+  font-size: 18px;
+  background: none;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+/* **********************************second-section****************************************** */
+.second-section {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 630px;
+}
+.twocontainer {
+  display: flex;
+}
+.fistcontainer {
+  /* border: 2px solid black; */
+  /* border-right: 5px solid yellow;
+    border-bottom: 5px solid yellow; */
+  width: 40%;
+  height: 610px;
+  margin: 10px;
+  padding: 20px;
+  /* cards*********************** */
+}
+.first2card {
+  display: flex;
+}
+.second2card {
+  display: flex;
+}
+.third2card {
+  display: flex;
+}
+.fistcontainer .num-card-r {
+  /* border: 2px solid black; */
+  border-bottom: 0.01px solid grey;
+  border-left: 0.01px solid grey;
+  text-align: center;
+  width: 45%;
+  height: 200px;
+  /* margin: auto; */
+  font-size: 20px;
+  font-weight: bold;
+}
+.fistcontainer .num-card-l {
+  /* border: 2px solid black; */
+  border-bottom: 0.01px solid grey;
+  text-align: center;
+  width: 45%;
+  height: 200px;
+  /* margin: auto; */
+  font-size: 20px;
+  font-weight: bold;
+}
+.fistcontainer .num-card-l span {
+  font-size: 30px;
+}
+.fistcontainer .num-card-r span {
+  font-size: 30px;
+}
+.fistcontainer .num-card-r p {
+  margin-top: 30%;
+}
+.fistcontainer .num-card-l p {
+  margin-top: 30%;
+}
+
+.secondcontainer {
+  /* border: 2px solid black; */
+  width: 60%;
+  height: 610px;
+  margin: 10px;
+  padding-right: 100px;
+}
+.secondcontainer h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+.secondcontainer button {
+  border: none;
+  background-color: yellow;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+/* **********************************third-section****************************************** */
+.thirdsection .heading-3section {
+  /* border-top: 1px solid black; */
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  margin-top: 100px;
+}
+.thirdsection .heading-3section h1 {
+  font-weight: bold;
+}
+
+.thirdsection .servicesCards {
+  /* border-top: 1px solid black; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.thirdsection .servicesCards .techCards {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.thirdsection .servicesCards .techCards p {
+  /* margin-top:50% */
+  font-weight: bold;
+}
+.thirdsection .servicesCards .techCards .techicon {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+/* **********************************fourth-section****************************************** */
+.fourthsection {
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+.fourthsection .leftbox {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 250px;
+  padding: 15px;
+}
+.fourthsection .leftbox h1 {
+}
+.fourthsection .leftbox button {
+  border: none;
+  background-color: yellow;
+  width: 350px;
+  height: 50px;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.fourthsection .rightbox {
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 250px;
+  padding: 15px;
+}
+.fourthsection .rightbox span {
+  font-weight: bold;
+}
+/* **********************************fifth-section****************************************** */
+.fifthsection {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  display: flex;
+}
+.fifthsection .image {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 100%;
+  background-image: url(img/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fifthsection .fifthrightbox {
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+}
+.fifthsection .fifthrightbox button {
+  border: none;
+  background-color: yellow;
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  color: black;
+}
+.fifthsection .fifthrightbox span {
+  font-weight: bold;
+  left: 100px;
+}
+.fifthsection .fifthrightbox p {
+  margin-left: 11px;
+}
+/* **********************************sixth-section****************************************** */
+.sixthsection {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 120px;
+  margin-top: 50px;
+  /* padding: 15px; */
+
+  text-align: center;
+}
+.sixthsection h3 {
+  font-size: 25px;
+}
+.process {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 50px;
+  padding: 11px;
+  align-items: center;
+}
+.processpoints {
+  /* display: flex; */
+  /* border:2px solid black; */
+
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.processpoints a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 12px 12px 12px;
+  font-weight: bold;
+  color: black;
+}
+/* **********************************seven-section****************************************** */
+
+.sevensection {
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  margin-top: 25px;
+  padding: 15px;
+  display:flex;
+}
+
+.sevensection .sevenrightbox {
+  border: 1px solid black;
+  width: 65%;
+  height: 100%;
+  /* margin: 12px; */
+  padding: 15px;
+}
+
+.sevensection .sevenleftbox {
+    border: 1px solid black;
+    width: 35%;
+    height: 100%;
+    /* margin: 12px; */
+    padding: 15px;
+  }
